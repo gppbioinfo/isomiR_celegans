@@ -2,7 +2,11 @@
 isomiR identification pipeline, scripts for graph plotting
 
 
-Every script does have usage information at the top
+Every script has usage information at the top
+
+# Step I - run this script from the fastq file folder
+sh isomiR_workflow.sh  
+
+# This will generate files with isomiR information for downstream analysis
 
 
-perl targetscan_70.pl miRNA_file UTR_file PredictedTargetsOutputFile
